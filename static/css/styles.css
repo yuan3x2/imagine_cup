@@ -10797,3 +10797,43 @@ header.masthead .post-heading .meta a {
   }
 }
 
+
+.LMinner{
+   background-color: rgba(135, 206, 250,0.2);
+   height: 350px;
+   border-radius: 2%;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   margin-bottom: 10%;
+
+}
+
+.LMinner:hover{
+    cursor: pointer;
+}
+
+.LMpic{
+  position: relative;
+  left:10%;
+  top:5%;
+  height:70%;
+  width:80%;
+ 
+  
+}
+
+.LMtitle{
+  position: relative;
+  top:5%;
+  left:15%;
+  height:20%;
+  width:70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LMimg{
+  position: relative;
+  height: 100%;
+  width:100%;
+}
