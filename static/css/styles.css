@@ -10862,8 +10862,7 @@ header.masthead .post-heading .meta a {
 
 /* Remove default margin */
 
-h2,
-p {
+h2{
   margin: 0;
 }
 
@@ -10877,11 +10876,9 @@ h2 {
   line-height: 1.1;
 }
 
-p {
-  font-family: var(--font-text);
-  font-size: 1rem;
-  line-height: 1.5;
-  color: var(--white);
+.card__description{
+  color:white;
+  margin:0%;
 }
 
 .flow > * + * {
